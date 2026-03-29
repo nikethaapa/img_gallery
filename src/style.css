@@ -82,6 +82,9 @@ nav {
  
   
 }
+.card:hover img {
+  transform: scale(1.1);
+}
 
 /* HOVER EFFECT */
 .img_card:hover img {
@@ -108,4 +111,12 @@ footer {
   padding: 20px;
   text-align: center;
   border-top: 1px solid #444;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 }
