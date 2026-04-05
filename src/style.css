@@ -120,3 +120,25 @@ html {
     grid-template-columns: 1fr;
   }
 }
+.gallery_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.img_card {
+  text-align: center;
+}
+
+.img_card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.img_title {
+  margin-top: 8px;
+  font-weight: 500;
+  color: white; /* optional for dark background */
+}
