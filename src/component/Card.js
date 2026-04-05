@@ -1,5 +1,5 @@
 // src/components/Card.js
-import React from "react";
+
 
 function Card({ title, img }) {
   return (
