@@ -1,7 +1,4 @@
-import React from "react";
 
-
-//about us
 function About(){
   return(
     <div id="about" className="about-section">

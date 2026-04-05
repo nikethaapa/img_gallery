@@ -1,4 +1,3 @@
-import React  from 'react';
 import Nav from "./component/Nav"
 import './style.css';
 import Gallery from './component/Gallery';

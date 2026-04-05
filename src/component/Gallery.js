@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./Card";
 
 import i1 from "./asset/1.jpg";
