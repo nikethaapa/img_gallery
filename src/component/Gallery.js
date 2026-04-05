@@ -6,7 +6,8 @@ import Card from "./Card";
 const galleryData = Array.from({ length: 20 }, (_, i) => ({
   title: `Cat ${i + 1}`,
   img: `/img_gallery/${i + 1}.jpg`, // public folder path
-  description: `Description for Cat ${i + 1}`,
+  description: `Description for Cat ${i + 1}`,  
+  
 }));
 
 function Gallery() {
